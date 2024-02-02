@@ -1,0 +1,89 @@
+#game-container {
+  flex-direction: column;
+  margin: 242px auto auto;
+  align-items: center;
+  width: 420px;
+  height: 420px;
+}
+
+.table {
+  text-transform: uppercase;
+  font-size: 20px;
+  display: flex;
+  width: 420px;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.win-table {
+  color: green;
+  display: flex;
+  width: 210px;
+  height: 100px;
+  flex-direction: column;
+}
+
+.win {
+  /*padding: 5px;*/
+  text-align: center;
+  width: 207px;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 1px;
+}
+
+.win-result {
+  text-align: center;
+  width: 207px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.loose-table {
+  color: red;
+  display: flex;
+  width: 420px;
+  height: 100px;
+  flex-direction: column;
+}
+
+.loose {
+  text-align: center;
+  width: 207px;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 1px;
+}
+
+.loose-result {
+  text-align: center;
+  width: 207px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.cells {
+  display: inline-block;
+  background-color: green;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  width: 100px;
+  height: 100px;
+}
+
+.active {
+  background-image: url(../img/goblin.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: brown;
+}
+
+.hammer {
+  cursor: url('../img/Hammer.cur'), default;
+}
+
+.hidden {
+  display: none;
+}
